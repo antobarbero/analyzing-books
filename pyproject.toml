@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "analyzing-books"
+version = "0.1.0"
+description = "Analyzing books popularity and words."
+authors = ["Antonella Barbero <antobarbero94@gmail.com>"]
+readme = "README.md"
+repository = "https://github.com/antobarbero/analyzing-books"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pyspark = "^3.5.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.5"
+pre-commit = "^3.8"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
