@@ -7,7 +7,7 @@ Analyzing and visualizing different aspects of books from the "goodbooks" datase
 - How book popularity changes over time and identifying trends in reading preferences.
 - Exploring common words and phrases used in book titles and descriptions.
 
-Dataset available here: https://www.kaggle.com/datasets/zygmunt/goodbooks-10k
+Dataset available here: https://github.com/zygmuntz/goodbooks-10k
 
 
 ## Installation for developers
@@ -61,7 +61,7 @@ Or set the created virtual environment as your project interpreter and open a ne
 
 4 - Run `git lfs install`
 
-For tracking additional files use `git lfs "*.csv"`
+For tracking additional files use `git lfs track *.csv`
 
 5 - Before contributing, install the pre-commit hooks by running the following command:
 
