@@ -9,6 +9,11 @@ Analyzing and visualizing different aspects of books from the "goodbooks" datase
 
 Dataset available here: https://github.com/zygmuntz/goodbooks-10k
 
+The implementation follows the Modular Pipeline Pattern, and the flow is more or less:
+Data Ingestion → Data Cleaning → Data Transformation → Reporting/Visualization
+
+The module `run_pipeline.py` orchestrates the entire pipeline, connecting all layers.
+
 
 ## Installation for developers
 
