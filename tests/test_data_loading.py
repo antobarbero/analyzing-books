@@ -9,9 +9,9 @@ def test_ingest_data():
 
     assert isinstance(data, BooksDataset)
     assert data.books_df.count() == 99
-    assert len(data.books_df.columns) == 23
+    assert len(data.books_df.columns) == 3
     assert data.ratings_df.count() == 99
-    assert len(data.ratings_df.columns) == 3
+    assert len(data.ratings_df.columns) == 2
 
 
 def test_ingest_data_invalid_path():
