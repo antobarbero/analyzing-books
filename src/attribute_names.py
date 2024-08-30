@@ -1,0 +1,6 @@
+BOOK_ID = "book_id"
+RATING = "rating"
+TITLE = "title"
+ORIGINAL_PUBLICATION_YEAR = "original_publication_year"
+AVERAGE_RATING = "avg_rating"
+REVIEWS_COUNT = "reviews_count"
