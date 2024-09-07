@@ -47,6 +47,12 @@ Restart your terminal session and verify pipx does run.
 
 4 - Install Git Large File Storage, for storing the datasets in a more efficient way (https://git-lfs.com/)
 
+5 - Install Spark (https://medium.com/@hello-dinesh/setup-apache-spark-environment-on-windows-11-step-by-step-guide-74e5aa1c9f65)
+
+6 - Set the required environment variables
+
+PYSPARK_PYTHON="C:\\Your\path\analyzing_books\.venv\Scripts\python.exe
+
 ### Setup
 
 1 - Clone the repository
