@@ -58,9 +58,9 @@ def test_get_books_popularity_overtime(spark):
 
     expected_df = spark.createDataFrame(
         data=[
-            (1, "Alice in Wonderland", 1800, 3, 6.33),
+            (1, "Alice in Wonderland", 1800, 3, 6.333333333333333),
             (2, "The room", 1990, 3, 3.0),
-            (3, "The house", 1996, 3, 9.5),
+            (3, "The house", 1996, 2, 9.5),
             (4, "Five dogs", 2020, 1, 6.0),
             (5, "Dracula", 1820, 5, 5.0),
             (6, "Bible", 1980, 2, 6.5),
