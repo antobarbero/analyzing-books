@@ -1,7 +1,7 @@
 from data_ingestion import ingest_data
 from data_cleaning import clean_data
 from data_transformation import get_books_popularity_overtime
-from reporting import visualize_results
+from reporting import get_figure
 import logging
 
 logging.basicConfig(filename="..\\pipeline.log", level=logging.INFO)
@@ -23,7 +23,9 @@ def run_pipeline(files_path: str = "..\\datasets") -> None:
     )
 
     logger.info("Preparing visualization.")
-    visualize_results(transformed_data)
+    plot = get_figure(transformed_data)
+
+    plot.show()
 
 
 if __name__ == "__main__":
